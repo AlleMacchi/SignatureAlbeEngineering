@@ -1,0 +1,75 @@
+@import "style.css";
+/*******************************************************
+*
+* 2. Home - Intro Site
+*
+*******************************************************/
+/* Container */
+#about {
+  background-image: url("./img/BackgroundGrey.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  margin-top: 108px;
+}
+
+.about-container {
+  height: 100%;
+  width: 100vw;
+  padding-bottom: 3%;
+  padding-top: 0;
+}
+
+.about-text-container {
+  position: relative;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  width: 100%;
+  display: inline-block;
+  text-align: left;
+}
+
+#about-h1 {
+  font-weight: 500;
+  font-size: 54px;
+  line-height: 56px;
+  margin: 15px 0px 21px;
+  color: var(--blue);
+  font-family: 'Ubuntu', sans-serif;
+  text-rendering: optimizeLegibility;
+}
+
+#about-p1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 114%;
+  letter-spacing: 0.05357em;
+  text-transform: uppercase;
+  color: var(--grey);
+  position: relative;
+}
+
+#about-p1>span {
+  color: var(--yellow);
+  font-weight: 800;
+}
+
+#about-p2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 114%;
+  letter-spacing: 0.05357em;
+  text-transform: uppercase;
+  color: var(--grey);
+  letter-spacing: 0.05357em;
+  text-rendering: optimizeLegibility;
+}

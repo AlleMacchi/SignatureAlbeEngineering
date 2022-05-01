@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
+  <title>Albe Engineering</title>
+  <link href="./icon/favicon-16x16.png" rel="icon" type="image/png" sizes="16x16">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body onload="calcHeightNavbar()" onresize="calcHeightNavbar()">
+
+  <!-- Navbar -->
+  <nav id="navbar-custom">
+    <div class="navbar-container">
+      <a href="#home"><img id="navbar-image-logo" src="./icon/LogoWhite.ico" alt="Logo"></a>
+      <h1 id="navbar-brand">ALBE ENGINEERING</h1>
+      <div class="navbar-menu-mobile">
+        <div id="btn-about"><a href="about.html">About</a></div>
+        <div id="btn-service"><a href="service.html">Service</a></div>
+        <div id="btn-contact"><a href="contact.html">Contact</a></div>
+      </div>
+      <button class="navbar-hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Intro Container -->
+  <section id="home">
+    <div class="home-container">
+      <div class="row">
+        <div class="col-lg-9 col-home-video">
+          <video id="home-video" preload="yes" autoplay loop muted playsinline>
+            <source src="./video/robot_2.mp4" type="video/mp4">
+          </video>
+        </div>
+        <div class="col-lg-3 col-home-text">
+          <div class="home-text-container">
+            <p id="home-p1"><span>//</span> high quality service</p>
+            <h1 id="home-h1">ALBE ENGINEERING</h1>
+            <p id="home-p2">We Manage End-to-end <span><br></span>Automation Engineering<span><br></span><span><br></span>We know what you want before you’ve ever had it</p>
+            <a href="#">
+              <button class="button-anchor">Learn More</button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Trust Us -->
+  <section id="trust-us">
+    <div class="trust-us-container">
+      <div class="row">
+        <div class="col-lg-6">
+          <h1 id="trust-us-h1">Best quality you can rely on</h1>
+          <p id="trust-us-p1">We are a team of specialized engineers supporting customers with
+            complex Robotic project in the field of Industrial automation.
+            We have expirience in deploying LGV, AGV robots and industrial lines.
+            We operate Australia and New Zealand wide</p>
+        </div>
+        <div class="col-lg-6">
+          <div class="col-trust-us-video">
+            <video id="trust-us-video" preload="yes" autoplay loop muted playsinline>
+              <source src="./video/TrustNow.mp4" type="video/mp4">
+            </video>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="trust-us-container">
+      <div class="row trust-us-data-row">
+        <div class="col-lg-6">
+          <h4 class="trust-us-h4">50+ <span class="trust-us-span">PROJECTS COMPLETED</span></h4>
+        </div>
+        <div class="col-lg-6">
+          <h4 class="trust-us-h4">10+ <span class="trust-us-span">YEARS IN ROBOTIC INDUSTRY</span></h4>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Our services -->
+  <section id="our-services">
+    <div class="our-services-container">
+
+      <div class="col our-services-title">
+        <h2>Our Services</h2>
+      </div>
+
+      <div class="row gy-4 row-cols-1 row-cols-sm-2 row-cols-md-3">
+        <div class="col">
+          <div class="our-services-service">
+            <div class="our-services-service-icon">
+              <img src=".\icon\Home-Automation-White.png" height="70%" alt="home automation">
+            </div>
+            <h6>Home Automation</h6>
+            <p>Enim lectus mi ac suspendisse elit &nbsp;vel. Gravida lacus nibh.</p>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="our-services-service">
+            <div class="our-services-service-icon">
+              <img src=".\icon\Project-Manager-White.png" height="70%" alt="Project Manager">
+            </div>
+            <h6>Project Manager</h6>
+            <p>Enim lectus mi ac suspendisse elit &nbsp;vel. Gravida lacus nibh.</p>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="our-services-service">
+            <div class="our-services-service-icon">
+              <img src=".\icon\PC-Software-White.png" height="70%" alt="Software developers">
+            </div>
+            <h6>Software developers</h6>
+            <p>Enim lectus mi ac suspendisse elit &nbsp;vel. Gravida lacus nibh.</p>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="our-services-service">
+            <div class="our-services-service-icon">
+              <img src=".\icon\PLC-Software-White.png" height="70%" alt="PLC Software developers">
+            </div>
+            <h6>PLC Software developers</h6>
+            <p>Enim lectus mi ac suspendisse elit &nbsp;vel. Gravida lacus nibh.</p>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="our-services-service">
+            <div class="our-services-service-icon">
+              <img src=".\icon\Eletrical-Assembly-White.png" height="70%" alt="Eletrical Assembly">
+            </div>
+            <h6>Eletrical Assembly</h6>
+            <p>Enim lectus mi ac suspendisse elit &nbsp;vel. Gravida lacus nibh.</p>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="our-services-service">
+            <div class="our-services-service-icon">
+              <img src=".\icon\Mechanical-Assembly-White.png" height="70%" alt="Mechanical Assembly">
+            </div>
+            <h6>Mechanical Assembly</h6>
+            <p>Enim lectus mi ac suspendisse elit &nbsp;vel. Gravida lacus nibh.</p>
+          </div>
+        </div>
+
+      </div>
+      <span><br></span>
+      <a href="#">
+        <button class="button-anchor">Learn More</button>
+      </a>
+    </div>
+
+
+  </section>
+
+  <footer>
+    <div class="waves">
+      <div class="wave" id="wave1"></div>
+      <div class="wave" id="wave2"></div>
+      <div class="wave" id="wave3"></div>
+      <div class="wave" id="wave4"></div>
+    </div>
+
+    <ul class="social_icon">
+      <li><a href="#"><img src="./icon/Facebook.png" height="36px" alt=""></a></li>
+      <li><a href="#"><img src="./icon/Twitter.png" height="36px" alt=""></a></li>
+      <li><a href="#"><img src="./icon/Instagram.png" height="36px" alt=""></a></li>
+      <li><a href="#"><img src="./icon/Linkedin.png" height="36px" alt=""></a></li>
+    </ul>
+
+    <div class="info-company-conrtainer">
+
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="info-company">
+            <img src=".\icon\Address.png" height="24px" alt="">64 Murriverie rd North Bondi 2026, Sydney NSW
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="info-company">
+            <img src=".\icon\Email.png" height="24px" alt="">info@albeengineering.com.au
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="info-company">
+            <img src=".\icon\Phone.png" height="24px" alt="">(+61) 411-234-567
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  <script src=".\scroll-out.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
